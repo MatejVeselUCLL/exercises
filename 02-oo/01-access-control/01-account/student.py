@@ -1,7 +1,4 @@
-class Account:
-    def __init__(self, login, password):
-        self.login = login
-        self.__password = password
-
-    def is_correct_password(self, pw):
-        return pw == self.__password
+class Wall:
+    def __init__(self):
+        self.armor = 10
+        self.height = 5
