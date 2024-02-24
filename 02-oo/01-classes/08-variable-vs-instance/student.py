@@ -1,8 +1,7 @@
 class Dragon:
-    element = "ice"
 
     def __init__(self, element):
-        return
+        self.element = element
 
     def get_breath_damage(self):
         if self.element == "fire":
@@ -22,7 +21,7 @@ def main():
     )
 
     second_dragon = Dragon("ice")
-    Dragon.element = "fire"
+    # Dragon.element = "fire"
     print(
         f"{second_dragon.element} dragon does {second_dragon.get_breath_damage()} damage"
     )
