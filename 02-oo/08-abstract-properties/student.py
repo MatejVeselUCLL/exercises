@@ -1,5 +1,5 @@
-from math import pi
 from abc import ABC, abstractmethod
+from math import pi
 
 class Shape(ABC):
     @property
@@ -12,7 +12,7 @@ class Shape(ABC):
     def area(self):
         ...
 
-class Rectangle:
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.__length = length
         self.__width = width
@@ -34,7 +34,7 @@ class Rectangle:
         return self.length * self.width
 
 
-class Circle:
+class Circle(Shape):
     def __init__(self, radius):
         self.__radius = radius
 
