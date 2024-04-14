@@ -16,5 +16,3 @@ def indices_of_cards_with_suit(cards, suit):
         return card.suit == suit
 
     return [i for i, card in enumerate(cards) if matches_suit(card, suit)]
-
-"Finished '01-comprehensions', '02-higher-order-functions' and '03-nested-functions' in chapter '05-functional-programming'"

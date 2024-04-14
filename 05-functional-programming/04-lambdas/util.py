@@ -3,6 +3,8 @@ class Card:
         self.value = value
         self.suit = suit
 
+    def __repr__(self):
+        return f'({self.value}, {self.suit})'
 
 def group_by(xs, key_function):
     result = {}

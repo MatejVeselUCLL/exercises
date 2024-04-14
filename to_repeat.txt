@@ -1,0 +1,4 @@
+oo from operator overloading
+05-functional-programming\01-comprehensions\06-functions\student.py alternating stuff and the last one
+05-functional-programming\02-higher-order-functions\02-generalizing\student.py
+05-functional-programming\03-nested-functions\student.py
