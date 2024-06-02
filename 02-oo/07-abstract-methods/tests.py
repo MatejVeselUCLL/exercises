@@ -1,6 +1,6 @@
 import inspect
 import pytest
-from student import *
+from student2 import *
 
 
 def is_class_abstract(c):

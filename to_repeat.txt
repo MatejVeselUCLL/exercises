@@ -1,3 +1,5 @@
+repeated C:\Users\vesel\Documents\repositories\exercises\02-oo\01-classes\10-employee-mang\assignment.md
+repeated C:\Users\vesel\Documents\repositories\exercises\02-oo\02-access-control\01-encapsulation\assigment.py
 oo from operator overloading
 05-functional-programming\01-comprehensions\06-functions\student.py alternating stuff and the last one
 05-functional-programming\02-higher-order-functions\02-generalizing\student.py
